@@ -1,0 +1,54 @@
+.idk {
+    font-style: italic;
+    background-color: #496291;
+}
+
+section {
+    text-align: center;
+}
+
+.gameTitle {
+    font-size: 100px;
+    color: #331a47;
+    margin: 10px auto;
+}
+
+.gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #223758;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #418169;
+    border: 2px solid #223758;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.gameStatus {
+    font-size: 50px;
+    color: #331a47;
+    margin: 20px auto;
+}
+
+.gameRestart {
+    background-color: #7a6988;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #1a1a1b;
+    box-shadow: 2px 2px 2px 2px #381c31;
+    border: 2px solid #5c1951;
+}
+
+.hide {
+    display: none;
+}
